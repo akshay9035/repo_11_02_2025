@@ -4,9 +4,9 @@ def fibonacci(n):
         fib_seq.append(fib_seq[-1] + fib_seq[-2])
     return fib_seq
 
-n = 10
+n = 100
 fib_numbers = fibonacci(n)
 
-print("First 10 Fibonacci numbers:")
+print("First 100 Fibonacci numbers:")
 for num in fib_numbers:
     print(num)
