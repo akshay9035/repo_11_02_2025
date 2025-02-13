@@ -1,0 +1,12 @@
+def fibonacci(n):
+    fib_seq = [0, 1]
+    for _ in range(n - 2):
+        fib_seq.append(fib_seq[-1] + fib_seq[-2])
+    return fib_seq
+
+n = 10
+fib_numbers = fibonacci(n)
+
+print("First 10 Fibonacci numbers:")
+for num in fib_numbers:
+    print(num)
